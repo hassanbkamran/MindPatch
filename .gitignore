@@ -1,0 +1,40 @@
+# Node/Electron/Vite
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Local configs
+.env
+.env.*
+
+# SQLite and data
+*.sqlite
+*.db
+*.db-wal
+*.db-shm
+
+# Python/venv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Models
+models/
+
+# Output
+reports/
+data/
+
+# Logs
+*.log
+server/logs/
+
+# OS
+.DS_Store
+Thumbs.db
